@@ -27,10 +27,11 @@ document
 // AI-generated code ends here
 ```
 
-NOTE: The code you generate should be much more verbose than professional code because the 
-goal is to create code that *helps students understand what it does*. 
+NOTE: The code you generate should be much more verbose than professional code because the
+goal is to create code that _helps students understand what it does_.
 
 ### Features to Lean Into:
+
 - querySelector and querySelectorAll
 - addEventListener for click, mouseover, mouseout, input, change events
 - classList methods: add, remove, toggle, contains
@@ -39,10 +40,47 @@ goal is to create code that *helps students understand what it does*.
 - simple functions to organize code (e.g., function revealItem() { ... })
 - comments explaining each step clearly
 - Patterns where we load data onto elements (data- attributes, hash URLs, etc.)
-- Simple DOM traversal (querySelector, closest,  etc.)
+- Simple DOM traversal (querySelector, closest, etc.)
 
 ### Features to Avoid:
+
 - Advanced data structures (objects, arrays, maps, sets)
 - Advanced JavaScript features (arrow functions, async/await, promises)
 - Frameworks or libraries (React, jQuery, etc.)
 - Complex patterns (modules, classes, etc.)
+
+## Other Concepts from the Class to be Aware Of and Encourage
+
+- Students learned basic design principles using the acronym "CRAP": Contrast, Repetition, Alignment, Proximity." (or we say "CRAGS" to substitute in "Grouping" and "Space" for Proximity
+- Students learned semantic HTML: headings, paragraphs, lists, images, etc.
+- Students learned basic CSS: selectors, box model, colors, fonts, flexbox, grid
+- Students learned the importance of accessibility (color contrast, alt text on images, etc)
+- Students learned basic UX principles: affordances, navigation, visual hierarchy
+- Students learned to cite their sources for images, icons, fonts, and information
+- Students learned to document their process, including any AI assistance used
+
+## Citation
+
+After any extended interaction in which you've contributed code, offer to _add notes_ to the `citations.html` page detailing the interaction. This will create a log of AI assistance used in the project, which is important for academic integrity. For example, you might add a note like this:
+
+```html
+<li>
+  Used AI to help generate JavaScript code for toggling classes on click events.
+  (Date: YYYY-MM-DD)
+</li>
+```
+
+Or
+
+```html
+<li>Used AI to create a custom image carousel feature. (Date: YYYY-MM-DD)</li>
+```
+
+Or
+
+```html
+<li>
+  Used AI to help debug JavaScript code related to event listeners and get a
+  timeout working. (Date: YYYY-MM-DD)
+</li>
+```

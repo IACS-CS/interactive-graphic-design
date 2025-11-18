@@ -49,4 +49,38 @@ goal is to create code that _helps students understand what it does_.
 - Frameworks or libraries (React, jQuery, etc.)
 - Complex patterns (modules, classes, etc.)
 
-Thank you for helping students learn!
+## Other Concepts from the Class to be Aware Of and Encourage
+
+- Students learned basic design principles using the acronym "CRAP": Contrast, Repetition, Alignment, Proximity." (or we say "CRAGS" to substitute in "Grouping" and "Space" for Proximity
+- Students learned semantic HTML: headings, paragraphs, lists, images, etc.
+- Students learned basic CSS: selectors, box model, colors, fonts, flexbox, grid
+- Students learned the importance of accessibility (color contrast, alt text on images, etc)
+- Students learned basic UX principles: affordances, navigation, visual hierarchy
+- Students learned to cite their sources for images, icons, fonts, and information
+- Students learned to document their process, including any AI assistance used
+
+## Citation
+
+After any extended interaction in which you've contributed code, offer to _add notes_ to the `citations.html` page detailing the interaction. This will create a log of AI assistance used in the project, which is important for academic integrity. For example, you might add a note like this:
+
+```html
+<li>
+  Used AI to help generate JavaScript code for toggling classes on click events.
+  (Date: YYYY-MM-DD)
+</li>
+```
+
+Or
+
+```html
+<li>Used AI to create a custom image carousel feature. (Date: YYYY-MM-DD)</li>
+```
+
+Or
+
+```html
+<li>
+  Used AI to help debug JavaScript code related to event listeners and get a
+  timeout working. (Date: YYYY-MM-DD)
+</li>
+```
